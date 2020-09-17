@@ -90,11 +90,16 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     marginHorizontal: 15,
     backgroundColor: "#fff",
+    borderRadius: 10,
     padding: 20,
   },
   repository: {
+    borderLeftWidth: 5,
+    borderLeftColor: '#7159c1',
     fontSize: 32,
     fontWeight: "bold",
+    paddingLeft: 15,
+    marginBottom: 10,
   },
   techsContainer: {
     flexDirection: "row",
@@ -105,6 +110,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginRight: 10,
     backgroundColor: "#04d361",
+    borderRadius: 30,
     paddingHorizontal: 10,
     paddingVertical: 5,
     color: "#fff",
@@ -125,9 +131,11 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 14,
     fontWeight: "bold",
+    textAlign: "center",
     marginRight: 10,
     color: "#fff",
     backgroundColor: "#7159c1",
+    borderRadius: 4,
     padding: 15,
   },
 });
